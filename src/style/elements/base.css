@@ -12,3 +12,7 @@
 .App h1 {
   font-size: clamp(2rem, 2.4rem, 4vw);
 }
+
+input, button {
+  border-style: none;
+}
