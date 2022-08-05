@@ -32,3 +32,18 @@ input, textarea {
   border-radius: .5rem;
   font-size: clamp(1.4rem, 1.6rem, 2vw);
 }
+
+textarea {
+  padding: .8rem 1rem 8rem 1rem;
+  resize: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
