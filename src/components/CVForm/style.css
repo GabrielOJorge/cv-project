@@ -1,0 +1,29 @@
+.CV-form, .CV-form > section, .CV-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.CV-form {
+  align-items: center;
+  gap: 4rem;
+
+  width: min(60rem, 90%);
+  padding: 1.5rem;
+  background: #646464;
+  border-radius: .5rem;
+}
+
+.CV-form input {
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
+}
+
+.CV-form > section {
+  gap: 2rem;
+  width: 100%;
+}
+
+.CV-form form {
+  gap: 1rem;
+}
