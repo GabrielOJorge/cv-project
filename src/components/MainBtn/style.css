@@ -1,0 +1,5 @@
+.main-btn {
+  font-size: clamp(1.4rem, 1.8rem, 2vw);
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+}
