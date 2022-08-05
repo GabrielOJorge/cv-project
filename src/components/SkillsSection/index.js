@@ -18,7 +18,7 @@ class SkillsSection extends Component {
 
         <form action="#" onSubmit={this.handleSubmit}>
           <input type="text" name="skill" id="skill" placeholder="Skill"/>
-          <button type="submit" className="main-btn">Add new skill</button>
+          <button type="submit" className="main-btn">Add</button>
         </form>
       </section>
     );
