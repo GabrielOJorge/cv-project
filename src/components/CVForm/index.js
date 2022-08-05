@@ -4,6 +4,7 @@ import ContactSection from "../ContactSection";
 import SkillsSection from "../SkillsSection";
 import EducationSection from "../EducationSection";
 import ExperienceSection from "../ExperienceSection";
+import ProjectsSection from "../ProjectsSection";
 import './style.css'
 import '../MainBtn/style.css'
 
@@ -20,6 +21,7 @@ class CVForm extends Component {
         <ContactSection />
         <SkillsSection />
         <EducationSection />
+        <ProjectsSection />
         <ExperienceSection />
       </div>
     )
