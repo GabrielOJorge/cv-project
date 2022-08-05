@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import './style.css'
 import PersonalInfoSection from "../PersonalInfoSection";
+import ContactSection from "../ContactSection";
+import './style.css'
 
 class CVForm extends Component {
+  // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props)
   }
@@ -11,6 +13,7 @@ class CVForm extends Component {
     return (
       <div className="CV-form">
         <PersonalInfoSection />
+        <ContactSection />
       </div>
     )
   }
