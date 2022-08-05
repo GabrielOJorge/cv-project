@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .App {
   display: flex;
   justify-content: center;
@@ -7,10 +9,13 @@
   width: 100%;
   background: #1a1a1a;
   color: #fff;
+
+  font-family: 'Roboto', sans-serif;
 }
 
 .App h1 {
   font-size: clamp(2rem, 2.4rem, 4vw);
+  font-weight: 700;
 }
 
 input, button {
