@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class SkillsSection extends Component {
+class SkillsForm extends Component {
   constructor(props) {
     super(props);
 
@@ -13,7 +13,7 @@ class SkillsSection extends Component {
 
   render() {
     return (
-      <section className="skills-section">
+      <section>
         <h1>Skills</h1>
 
         <form action="#" onSubmit={this.handleSubmit}>
@@ -26,4 +26,4 @@ class SkillsSection extends Component {
   };
 };
 
-export default SkillsSection;
+export default SkillsForm;

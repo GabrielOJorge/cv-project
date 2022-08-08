@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class EducationSection extends Component {
+class EducationForm extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -8,7 +8,7 @@ class EducationSection extends Component {
 
   render() {
     return (
-      <section className="education-section">
+      <section>
         <h1>Education</h1>
 
         <form action="#">
@@ -27,4 +27,4 @@ class EducationSection extends Component {
   };
 };
 
-export default EducationSection;
+export default EducationForm;

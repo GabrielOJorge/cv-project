@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ExperienceSection extends Component {
+class ExperienceForm extends Component {
   // eslint-disable-next-line no-useless-constructor
   constructor(props) {
     super(props);
@@ -25,4 +25,4 @@ class ExperienceSection extends Component {
   };
 };
 
-export default ExperienceSection;
+export default ExperienceForm;

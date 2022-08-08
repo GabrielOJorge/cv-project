@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class ProjectsSection extends Component {
+class ProjectsForm extends Component {
   constructor(props) {
     super(props);
 
@@ -28,4 +28,4 @@ class ProjectsSection extends Component {
   };
 };
 
-export default ProjectsSection;
+export default ProjectsForm;
