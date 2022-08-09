@@ -33,6 +33,11 @@ input, textarea {
   font-size: clamp(1.4rem, 1.6rem, 2vw);
 }
 
+input:focus {
+  outline: 2px solid var(--clr-light-grey);
+  box-shadow: 2px 2px 5px var(--clr-light-grey);
+}
+
 textarea {
   padding: .8rem 1rem 8rem 1rem;
   resize: none;
