@@ -11,6 +11,7 @@
   padding: 1.5rem;
   background: var(--clr-light-grey);
   border-radius: .5rem;
+  box-shadow: 1px 1px 5px #424242;
 }
 
 .CV-form > section {
@@ -19,6 +20,7 @@
   background-color: var(--clr-medium-grey);
   padding: 2rem 2rem;
   border-radius: .5rem;
+  box-shadow: 1px 1px 5px #000;
 }
 
 .CV-form form {
