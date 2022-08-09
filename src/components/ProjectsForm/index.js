@@ -13,7 +13,7 @@ class ProjectsForm extends Component {
 
   render() {
     return (
-      <section className="projects-section">
+      <section>
         <h1>Projects</h1>
 
         <form action="#" onSubmit={this.handleSubmit}>

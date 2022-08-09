@@ -8,7 +8,7 @@ class ExperienceForm extends Component {
 
   render() {
     return (
-      <section className="experience-section">
+      <section>
         <h1>Work</h1>
 
         <form action="#">

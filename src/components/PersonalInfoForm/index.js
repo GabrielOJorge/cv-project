@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import uniqid from "uniqid";
 import { CurriculumVitae, displayName } from "../CurriculumVitae";
-
-import './style.css'
 class PersonalInfoForm extends Component {
   constructor(props) {
     super(props)
@@ -32,7 +30,7 @@ class PersonalInfoForm extends Component {
     const { fname } = this.state;
 
     return (
-      <section className="personal-info-section">
+      <section>
         <h1>Personal Info</h1>
 
         <form action="#">
